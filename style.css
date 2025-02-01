@@ -15,7 +15,7 @@ body{
     align-content: center;
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px) ;
+    grid-template-rows: minmax(110px, auto) repeat(5, 100px) ;
 }
 .calc-grid > button{
     cursor: pointer;
@@ -37,12 +37,17 @@ body{
     align-items: end;
     justify-content: space-around;
     flex-direction: column;
-    padding: 10px;
+    padding:0 10px;
     word-wrap: break-word;
     word-break: break-all;
 }
-.screen .previous-op , .screen .current-op{
-    color: rgba(255, 255, 255, .75);
-    font-size: 1.8rem;
+.screen .previous-op {
+    color: rgba(255, 255, 255, .85);
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.screen .current-op{
+    color: rgba(255, 255, 255, .85);
+    font-size: 2.2rem;
     font-weight: bold;
 }
